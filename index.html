@@ -1,16 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <header>
-
-        </header>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/mobile.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
+        <header>
+                <h1>my portfolio</h1>
+                <nav>
+                    <ul class="navlinks">
+                        <a href="index.html">home &nbsp;</a>
+                        <a href="code.html">coding projects &nbsp;</a>
+                        <a href="about.html">about &nbsp;</a>
+                    </ul>
+                </nav>
+        </header>
         <main>
-            <h1> Test </h1>
+            <p id="indexabout"> failed to fetch text, please make sure JavaScript is enabled </p> <!-- text is for browswers not using js -->
+            <p> examples of some langauges i've learned so far along with skills are: </p>
+            <div class="codinglanglistdiv">
+                <ul class="codinglanglistul">
+                    <li> C++ </li>
+                    <li> HTML5 </li>
+                    <li> JavaScript </li>
+                    <li> CSS </li>
+                </ul>
+            </div>
+            <p> click the links in the navigation portion to see the projects for the langauges and about me/this site. </p>
+            
         </main>
         <footer>
-
+            <p>copyright &copy; 2025 dominik clark, hosted using <a id="githubpg" href="https://pages.github.com/"> github pages </a> <small> v1.0 </small></p>
+            <div class="sociallinksdiv">
+                <a href="https://www.linkedin.com/in/dominik-clark-b421b131a"> <img class="sociallinksimg" src="media/linkedin.png"> </a>
+                <a href="https://www.instagram.com/domtakesphotoss/"> <img class="sociallinksimg" src="media/instagram.png"> </a>
+            </div>
         </footer>
     </body>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="scripts/textloading.js"></script>
 </html>

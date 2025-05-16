@@ -1,0 +1,122 @@
+html {
+    background-color: rgb(17, 17, 17);
+    font-family: "Roboto Condensed", sans-serif;
+    color: white;
+    font-size: large;
+}
+
+a {
+    color: white;
+}
+
+@keyframes hoverani {
+    0%   { color: lightblue; } 
+    25%  { color: #8ecae6; } 
+    50%  { color: #71b7d6; } 
+    100% { color: lightblue; } 
+}
+
+
+a:hover {
+    animation-name: hoverani;
+    animation-duration: .6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+hr {
+    width: 25%;
+    color: #ffffff;
+    height: 5px;
+    background-color: #ffffff;
+    border: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 5%;
+}
+
+footer {
+    padding-top: 2%;
+    text-align: center;
+}
+    
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+}
+
+small {
+    font-size: x-small;
+}
+
+.navlinks {
+    display: inline-block;
+    padding: 0px 20px;
+    list-style: none;
+    color: white;
+}
+
+.navlinks a {
+    text-decoration: none;
+}
+
+#githubpg {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.codinglanglistdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+}
+
+.codinglanglistul {
+    text-align: left;
+}
+
+.aboutcontainer1 {
+    text-align: left;
+    width: 50%;
+    float: left;
+}
+
+.aboutcontainer2 {
+    width: 50%;
+    float: right;
+}
+
+#aboutimage {
+    height: 60%;
+    width: 60%;
+    border-radius: 10px;
+    border:rgba(0, 0, 0, 0) 5px;
+}
+
+.sociallinksdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1px;
+}
+
+.sociallinksimg {
+    width: 10%;
+    height: 10%;
+}
+

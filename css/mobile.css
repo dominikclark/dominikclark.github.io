@@ -1,0 +1,25 @@
+/* THIS CSS FILE IS STRICLTY USED FOR RESPONSIVE WEB DESIGN (MOBILE SCALING) to avoid cluttering the main styles */
+
+@media only screen and (max-width: 1336px) {
+    nav {
+        font-size: 40px;
+    }
+    main {
+        font-size: 50px;
+    }
+    footer {
+        font-size: 36px;
+    }
+    .aboutcontainer1 {
+        text-align: center;
+        width: 100%;
+        float: left;
+    }
+    .aboutcontainer2 {
+        display: none;
+    }
+    .sociallinksimg {
+        width: 20%;
+        height: 20%;
+    }
+}
