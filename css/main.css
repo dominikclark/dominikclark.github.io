@@ -9,16 +9,30 @@ a {
     color: white;
 }
 
-@keyframes hoverani {
-    0%   { color: lightblue; } 
-    25%  { color: #8ecae6; } 
-    50%  { color: #71b7d6; } 
-    100% { color: lightblue; } 
+@keyframes hoveranilinks {
+    0%   { color: lightblue; font-size: large;} 
+    25%  { color: #8ecae6; font-size: larger;} 
+    50%  { color: #9871d6; font-size: x-large;} 
+    75%  { color: #bb5c81; font-size: x-large;} 
+    100% { color: lightblue; font-size: x-large;} 
 }
 
+@keyframes hoveranisocial {
+    0%   { width: 11%; height: 11%;} 
+    25%  { width: 12%; height: 12%;} 
+    50%  { width: 14%; height: 14%;} 
+    100% { width: 15%; height: 15%;} 
+}
+
+.sociallinksimg:hover {
+    animation-name: hoveranisocial;
+    animation-duration: .6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
 
 a:hover {
-    animation-name: hoverani;
+    animation-name: hoveranilinks;
     animation-duration: .6s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in-out;
